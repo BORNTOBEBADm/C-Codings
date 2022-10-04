@@ -1,0 +1,17 @@
+#include <iostream>
+#define Pie 3.14
+using namespace std;
+
+int main()
+{
+	float area,r;
+	
+	cout<<"Enter the radius of a circle =";
+	cin>>r;
+	
+	area=Pie*r*r;
+	
+	cout<<"Area of the circle ="<<area;
+	
+	return 0;
+}
